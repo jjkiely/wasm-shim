@@ -37,7 +37,7 @@ cel-parser = "0.7.1"
 
 [dev-dependencies]
 proxy-wasm-test-framework = { git = "https://github.com/Kuadrant/wasm-test-framework.git", branch = "kuadrant" }
-serial_test = "2.0.0"
+serial_test = "3.0.0"
 
 [build-dependencies]
 protoc-rust = "2.27"
