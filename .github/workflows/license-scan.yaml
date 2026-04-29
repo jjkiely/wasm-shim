@@ -14,7 +14,7 @@ jobs:
     name: Find license compliance and security issues
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: fossas/fossa-action@v1.4.0
         name: License Scan
         with:
